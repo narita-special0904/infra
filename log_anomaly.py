@@ -3,9 +3,6 @@ import schedule
 import time
 import re
 from datetime import datetime, timedelta, timezone
-from collections import Counter
-import matplotlib.pyplot as plt
-import japanize_matplotlib
 
 from langchain_openai import AzureChatOpenAI
 from langchain_core.prompts import PromptTemplate
